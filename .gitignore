@@ -1,0 +1,24 @@
+# secrets / env
+.env
+.env.*
+!.env.example
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.db
+# node
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+# private uploaded documents (never commit)
+private_storage/
+backend/private_storage/
+# os/editor
+.DS_Store
+.idea/
+.vscode/
